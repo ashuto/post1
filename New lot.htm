@@ -1,0 +1,60 @@
+<html>
+<head>
+
+
+<title>First Page</title>
+
+<script type="text/javascript">
+
+function valid()
+{
+var obj1 = document.f1.t1;
+if(obj1.value.length==0)
+{
+alert(" Please enter Account No");
+obj1.focus();
+return false;
+}
+
+
+else
+return true;
+}
+</script> 
+
+</head>
+<body background="image/images2.jpg">
+
+<form name="f1" action="newlat.jsp" method="get" onsubmit="return valid()">
+<p>
+<h2>
+<img border="0" src="image/2.jpg" width="1323" height="155">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: 400"><marquee>New Lot</marquee></span></h2>
+<h2>
+<a href="user.jsp">HOME</a></h2>
+<h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-weight: 400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CARD NUMBER </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="text" name="t1" id="t1" size="20">
+</h2>
+
+<p>
+<h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="OK" >&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Clear">&nbsp;&nbsp;&nbsp;&nbsp; 
+</h2>
+<p>
+&nbsp;</p>
+<p>
+&nbsp;</p>
+<p>
+&nbsp;</p></form>
+<body onload="noBack();" onpageshow="if (event.persisted) noBack();">
+
+	<p align="center">&nbsp;</p>
+	<p align="center">&nbsp;</p>
+	<p align="center">&nbsp;</p>
+	<p align="center">&nbsp;</p>
+	<p align="center"><font color="#000000" size="5"><b><i> &nbsp;COPYRIGHT@UNDERGROUND DEVELOPER</i></b></font></p>
+
+	</body>
+</html>

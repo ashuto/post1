@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>First Page</title>
+
+<script type="text/javascript">
+
+function valid()
+{
+var obj1 = document.f1.t1;
+var obj2 = document.f1.t2;
+var obj3 = document.f1.t3;
+if(obj1.value.length==0)
+{
+alert(" Please enter card no");
+obj1.focus();
+return false;
+}
+else if(obj2.value.length==0)
+{
+alert(" Please enter new mobile no");
+obj2.focus();
+return false;
+}
+else if(obj3.value.length==0)
+{
+alert(" Please enter new office no  ");
+obj2.focus();
+return false;
+}
+
+else
+return true;
+}
+</script> 
+
+</head>
+<body background="image/images2.jpg" bgcolor="#FFFFFF">
+
+<form name="f1" action="updatecontact.jsp" method="get" onsubmit="return valid()">
+<p>
+<h2>
+<img border="0" src="image/2.jpg" width="1323" height="155"><span style="font-weight: 400"><marquee>Update Contact No</marquee></span></h2>
+<h2>
+<span style="font-weight: 400">&nbsp;<a href="user.jsp">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span></h2>
+<table border="0" width="100%">
+	<tr>
+		<td width="411" align="center">
+<span style="font-weight: 400"><font size="5">&nbsp;&nbsp;&nbsp;&nbsp; Card no</font></span><font size="5">
+		</font></td>
+		<td> 
+<input type="text" name="t1" size="41"maxlength="10"></td>
+	</tr>
+	<tr>
+		<td width="411" align="center">
+<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New Mobile no</font></td>
+		<td> 
+<input type="text" name="t2" size="41" maxlength="10"></td>
+	</tr>
+	<tr>
+		<td width="411" align="center">
+<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		New Office phone no </font> 
+		</td>
+		<td> 
+<input type="text" name="t3" size="41" maxlength="12"></td>
+	</tr>
+	<tr>
+		<td width="411">&nbsp;</td>
+		<td>
+<input type="submit" value="Update" >&nbsp;&nbsp;            <input type="reset" value="Clear"></td>
+	</tr>
+</table>
+<h2>
+<span style="font-weight: 400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</h2>
+<p>
+<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p>
+<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></p>
+<p align="center">
+&nbsp;</p>
+<p align="center">
+&nbsp;</p>
+<p align="center">
+<font color="#000000" size="5"><b><i> COPYRIGHT@UNDERGROUND DEVELOPER</i></b></font></p>
+<p>
+<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &nbsp;&nbsp;&nbsp;&nbsp;          
+</p></form>
+
+
+	</body>
+</html>
