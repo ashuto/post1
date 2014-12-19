@@ -14,7 +14,7 @@ session.removeAttribute("username");
 
 <body background="image/images2.jpg">
 <h1>
-Logout Successfully 
+Logout Successfully ...
 </h1>
 <a href="index.jsp"><h2> Login Again </h2></a>
 
