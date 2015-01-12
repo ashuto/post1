@@ -1,0 +1,9 @@
+{
+  "name": "post1",
+  "description": "Java webapp running on Tomcat,
+  "repository": "https://github.com/ashuto/post1",
+  "website": "http://hiashu.webs.com/",
+  "logo": "www.herokucdn.com/deploy/button.png",
+  "keywords": ["java", "tomcat"],
+ 
+}
