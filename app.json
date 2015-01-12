@@ -5,5 +5,4 @@
   "website": "http://www.jamesward.com/2012/02/15/webapp-runner-apache-tomcat-as-a-dependency",
   "logo": "https://tomcat.apache.org/images/tomcat.png",
   "keywords": ["java", "tomcat"],
-  "addons": ["memcachier"]
-}
+ }
